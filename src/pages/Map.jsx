@@ -22,7 +22,6 @@ const { BaseLayer } = LayersControl;
 const position = [45.7893939043154, 12.592336002089194];
 const position2 = [41.72093655521301, 18.953419884302637];
 
-// BOUNDS CODE
 const bounds = L.latLngBounds([position, position2]);
 
 export function Map({ data }) {
