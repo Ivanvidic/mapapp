@@ -29,10 +29,10 @@ export function Map({ data }) {
   return (
     <MapContainer
       center={[43.825447176282665, 15.141164086153994]}
-      zoom={8}
+      zoom={7}
       zoomControl={false}
       style={{ minHeight: "657px", width: "100vw" }}
-      minZoom={8}
+      minZoom={7}
       maxBounds={bounds}
       scrollWheelZoom={false}
     >
