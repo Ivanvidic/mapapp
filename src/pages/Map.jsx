@@ -33,7 +33,6 @@ export function Map({ data }) {
       style={{ minHeight: "657px", width: "100vw" }}
       minZoom={7}
       maxBounds={bounds}
-      scrollWheelZoom={false}
     >
       <LayersControl>
         <BaseLayer checked name="OpenStreetMap">
